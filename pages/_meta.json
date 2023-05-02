@@ -1,0 +1,13 @@
+{
+  "index": "Introduction",
+  "---": {
+    "type": "separator"
+  },
+  "ora": "Working with ORA Files",
+  "xgr": {
+    "title": "XGR Homepage",
+    "type": "page",
+    "href": "https://xgr.opgames.org",
+    "newWindow": true
+  }
+}
