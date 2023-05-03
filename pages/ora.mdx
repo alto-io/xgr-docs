@@ -1,4 +1,5 @@
 import { Callout } from "nextra-theme-docs";
+import XMLToJsonConverter from "../components/XMLToJsonConverter.js"
 
 # Working With ORA Files
 
@@ -10,6 +11,12 @@ ORA files are also zip files, making it easy to extract the contents and work wi
 </video>
 
 The `stack.xml` file contains the metadata for the images, such as pixel offsets and layer names. The `data` folder contains the actual image data, which is stored as PNG files.
+
+## Working with stack.xml
+
+We've found it easier to convert `stack.xml` to JSON, making it more readable and usable in other scripts. We've provided a drag and drop [`XMLToJsonConverter`](https://github.com/alto-io/xgr-docs/blob/main/components/XMLToJsonConverter.js) below.
+
+<XMLToJsonConverter/>
 
 ## Reference Projects
 
