@@ -1,7 +1,27 @@
 import { Callout } from "nextra-theme-docs";
 import XMLToJsonConverter from "../components/XMLToJsonConverter.js"
 
-# Working With ORA Files
+# Generating ORA Files from PSD
+
+## Requirements:
+ * [GIMP](https://www.gimp.org/)
+
+Go to **File --> Export As**, and simply put in a filename with a **.ora** extension. 
+
+***Exporting might take a while***, Depending on the size of your images and number of layers.
+
+<br></br>
+<video loop autoPlay muted>
+    <source src="videos/gimp_export_ora.mp4" type="video/mp4"></source>
+</video>
+
+### Some suggestions on organizing your PSD:
+
+* Have a layer named Root as the top layer
+* Lessen layer depth as much as possible, the simpler the organization is the less code will be needed by devs to process the ORA file
+* Make the first part be the default part when items are missing
+
+# Working with ORA Files
 
 ORA files are also zip files, making it easy to extract the contents and work with them. Simply change the file extension to `.zip` and use the file explorer to see the contents of the ORA file.
 
